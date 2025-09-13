@@ -125,7 +125,6 @@ img {
   border-color: color-mix(in oklab, var(--kh-accent) 88%, black);
 }
 .btn--ghost {
-  margin-left: 14px;
   background: radial-gradient(
       circle at 15% 20%,
       rgba(39, 214, 255, 0.16),
@@ -141,6 +140,18 @@ img {
 .btn.large {
   font-size: 16px;
   padding: 13px 18px;
+}
+
+/* Compact handle button (e.g., @kahuyhouse in hero) */
+.btn--handle {
+  padding: 10px;
+  border-width: 1px;
+  line-height: 1.15;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 6px;
 }
 
 .brand {
@@ -284,6 +295,7 @@ img {
   flex-wrap: wrap;
   gap: 12px;
 }
+
 .hero__meta {
   display: flex;
   align-items: center;
