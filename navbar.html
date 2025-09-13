@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <title>Navbar — KAHUY HOUSE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="assets/img/logo-kahuy.png" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- Komponen NAVBAR -->
+  <header class="site-header">
+    <div class="container row between center-v">
+      <a href="index.html" class="brand" aria-label="Beranda KAHUY HOUSE">
+        <img src="assets/img/logo-kahuy.png" alt="KAHUY HOUSE">
+      </a>
+      <nav class="nav" aria-label="Navigasi utama">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Buka menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul id="nav-menu" class="nav__menu">
+          <li><a href="index.html#services">Layanan</a></li>
+          <li><a href="index.html#acts">Kategori Hiburan</a></li>
+          <li><a href="index.html#space">Expression Space</a></li>
+          <li><a href="index.html#portfolio">Proyek</a></li>
+          <li><a href="index.html#about">Tentang</a></li>
+          <li><a href="index.html#contact" class="btn btn--primary">Booking</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Konten contoh agar halaman ini bisa dibuka mandiri -->
+  <main class="section section--tight">
+    <div class="container">
+      <p>Ini adalah halaman terpisah yang menampilkan komponen navbar.
+      Di halaman beranda, navbar ini dimuat otomatis dari file ini.</p>
+    </div>
+  </main>
+
+  <script defer src="assets/js/main.js"></script>
+</body>
+</html>
+

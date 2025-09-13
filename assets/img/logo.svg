@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220" height="48" viewBox="0 0 220 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="KAHUY HOUSE">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B5E34"/>
+      <stop offset="100%" stop-color="#E6A756"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="220" height="48" rx="8" fill="url(#g)" opacity="0.08"/>
+  <g fill="#1F1F1F">
+    <text x="8" y="30" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="22">KAHUY</text>
+    <text x="104" y="30" font-family="Poppins, Arial, sans-serif" font-weight="400" font-size="22">HOUSE</text>
+  </g>
+</svg>
